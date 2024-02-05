@@ -28,7 +28,7 @@
 <script>
 import props from '../mixins/props'
 
-require('../assets/css/main.css')
+require('../assets/main.css')
 
 export default {
     name: 'video-player',

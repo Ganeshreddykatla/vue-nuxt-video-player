@@ -2,24 +2,24 @@
 
 ### Intro
 
-This video-player designed for playing online and offline videos in any vue or nuxt base web page. You can play video
+This player designed for playing online and offline videos in any vue 3.2 + or nuxt 3+ base web page. You can play video
 from youtube, vimeo, offline path, and other online video URL.
 
 ### Install
 
 ```bash
-npm install --save nuxt-video-player
+npm install --save vue-nuxt-video-player
 ```
 
 ### How to
 
 ```javascript
-import VideoPlayer from 'nuxt-video-player'
+import Player from 'vue-nuxt-video-player'
 
-require('nuxt-video-player/src/assets/css/main.css')
+require('nuxt-video-player/src/assets/main.css')
 
 components: {
-    VideoPlayer
+    Player
 }
 ```
 
@@ -45,4 +45,3 @@ All props are optional.
 | muted     | Boolean  | false  | false | You can enable disable audio with this. |
 | poster     | String  | null  | false | You can set custom video poster with this. |
 | preload     | String  | 'auto'  | false | You can set video preload with this. |
-
