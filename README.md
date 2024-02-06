@@ -1,4 +1,4 @@
-# vue-nuxt-video-player
+# nuxt-multi-video-player
 
 ### Intro
 
@@ -8,15 +8,15 @@ from youtube, vimeo, offline path, and other online video URL.
 ### Install
 
 ```bash
-npm install --save vue-nuxt-video-player
+npm install --save nuxt-multi-video-player
 ```
 
 ### How to
 
 ```javascript
-import Player from 'vue-nuxt-video-player'
+import Player from 'nuxt-multi-video-player'
 
-require('vue-nuxt-video-player/src/assets/main.css')
+require('nuxt-multi-video-player/src/assets/main.css')
 
 components: {
     Player
