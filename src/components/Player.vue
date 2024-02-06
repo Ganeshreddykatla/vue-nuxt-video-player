@@ -31,7 +31,7 @@ import props from '../mixins/props'
 require('../assets/main.css')
 
 export default {
-    name: 'video-player',
+    name: 'Player',
     mixins: [props],
     data() {
         return {
