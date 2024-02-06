@@ -19,9 +19,13 @@
     </div>
 </template>
 
-<script setup>
-import {ref, defineProps} from 'vue'
+<script>
+import {ref, defineProps, defineComponent} from 'vue'
+export default defineComponent({
+    name:'VideoPlayer'
+})
 const isValidUrl = ref(true)
+// eslint-disable-next-line no-unused-vars
 let urlType = 'iframe'
 // eslint-disable-next-line no-unused-vars
 const props = defineProps({
