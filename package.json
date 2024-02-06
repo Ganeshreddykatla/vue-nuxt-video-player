@@ -1,7 +1,7 @@
 {
   "name": "nuxt-multi-video-player",
   "description": "nuxt-multi-video-player is for playing online and offline videos in any Vue 3.2+ or Nuxt 3+ project. It supports local or most of kind of online video.",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
