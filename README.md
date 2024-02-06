@@ -1,4 +1,4 @@
-# nuxt-video-player
+# vue-nuxt-video-player
 
 ### Intro
 
