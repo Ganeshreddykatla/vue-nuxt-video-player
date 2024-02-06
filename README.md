@@ -16,7 +16,7 @@ npm install --save vue-nuxt-video-player
 ```javascript
 import Player from 'vue-nuxt-video-player'
 
-require('nuxt-video-player/src/assets/main.css')
+require('vue-nuxt-video-player/src/assets/main.css')
 
 components: {
     Player
@@ -25,7 +25,7 @@ components: {
 
 ```vue
 
-<video-player src="your video url or path"/>
+<Player src="your video url or path"/>
 ```
 
 ### Props
