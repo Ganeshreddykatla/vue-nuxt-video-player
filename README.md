@@ -14,18 +14,18 @@ npm install --save nuxt-multi-video-player
 ### How to
 
 ```javascript
-import Player from 'nuxt-multi-video-player'
+import VideoPlayer from 'nuxt-multi-video-player'
 
 require('nuxt-multi-video-player/src/assets/main.css')
 
 components: {
-    Player
+    VideoPlayer
 }
 ```
 
 ```vue
 
-<Player src="your video url or path"/>
+<video-player src="your video url or path"/>
 ```
 
 ### Props
